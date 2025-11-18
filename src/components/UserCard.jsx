@@ -1,9 +1,18 @@
-import React from 'react'
-
-const UserCard = () => {
+export default function UserCard({ user }) {
   return (
-    <div>UserCard</div>
-  )
-}
+    <div className="card">
+      <div className="topRow">
+        <strong>{user.name}</strong>
+        <span className="muted">@{user.username}</span>
+      </div>
 
-export default UserCard
+      <p className="muted">{user.email}</p>
+      <p className="muted">{user.phone}</p>
+
+      
+      <p className="muted small">
+        {user.address?.city} · {user.company?.name}
+      </p>
+    </div>
+  );
+}
