@@ -5,6 +5,12 @@ It demonstrates API fetching, search filtering, loading/error states, and organi
 
 ---
 
+## 🔗 Live Demo
+
+[Watch here](https://harsh-user-directory.vercel.app/)
+
+---
+
 ## 🚀 Features
 
 * Fetches user data from a public API (JSONPlaceholder)
@@ -63,13 +69,7 @@ npm install
 npm run dev
 ```
 
----
 
-## 🔗 Live Demo
-
-[Watch here](https://harsh-user-directory.vercel.app/)
-
----
 
 ## 📝 API Used
 
